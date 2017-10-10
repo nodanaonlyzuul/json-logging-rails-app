@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="row" style="margin-left: 0px;">
+      <div class="col">
+        <h3>Click these links to log events for a: </h3>
+        <ul>
+          <li><%= link_to "Login", sessions_path, method: :post %></li>
+          <li><%= link_to "User Deactivation", users_deactivate_path %></li>
+          <li><%= link_to "500 error", exceptions_path, method: :post %></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

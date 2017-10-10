@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JsonLoggingRailsApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="row main-content">
+      <div class="header col">
+        <h1>This is an app that logs JSON</h1>
+      </div>
+
+      <div class="col">
+        <% if flash[:message] %>
+        <div class="alert alert-success" role="alert">
+          <%= flash[:message] %>
+        </div>
+        <% end %>
+      </div>
+      <%= yield %>
+    </div>
+  </body>
+</html>
