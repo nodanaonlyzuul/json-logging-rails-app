@@ -1,24 +1,11 @@
-# README
+# JSON Logging Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails application that logs JSON.  
+Go figure. It's a good app to deploy to ElasticBeanstalk if one if interested in showing off building:
 
-Things you may want to cover:
+* Filters from logs =>  
+* Metrics from filters =>  
+* Alarms  from Metrics =>  
+* Alerts from Alarms =>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+That's it dude.
