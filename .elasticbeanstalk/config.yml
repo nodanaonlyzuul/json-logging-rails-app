@@ -1,0 +1,19 @@
+branch-defaults:
+  json_test:
+    environment: json-logging-rails-app-jsontest
+  master:
+    environment: json-logging-rails-app-production
+    group_suffix: null
+global:
+  application_name: json-logging-rails-app
+  branch: null
+  default_ec2_keyname: Personal id_rsa
+  default_platform: Ruby 2.4 (Passenger Standalone)
+  default_region: us-east-1
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: personal
+  repository: null
+  sc: git
+  workspace_type: Application

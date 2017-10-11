@@ -1,7 +1,8 @@
 # JSON Logging Rails App
 
-This is a Rails application that logs JSON.  
-Go figure. It's a good app to deploy to ElasticBeanstalk if one if interested in showing off building:
+This is a Rails application that spits out logs.  
+There are many like it, but this one it mine.  
+It's a good app to deploy to ElasticBeanstalk if one if interested in showing off building:
 
 * Filters from logs =>  
 * Metrics from filters =>  
