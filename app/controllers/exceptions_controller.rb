@@ -1,5 +1,5 @@
 class ExceptionsController < ApplicationController
   def create
-    this is not ruby code
+    raise "this is an exception"
   end
 end
