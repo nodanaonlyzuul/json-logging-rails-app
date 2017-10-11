@@ -1,5 +1,3 @@
-require File.join(Rails.root, 'lib', 'json_logger')
-
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -76,7 +74,7 @@ Rails.application.configure do
   config.active_support.deprecation = :notify
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
-  config.log_formatter = JsonLogger.new
+  config.log_formatter = ::Logger::Formatter.new
 
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
